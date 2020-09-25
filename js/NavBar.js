@@ -1,15 +1,26 @@
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction();
+  hidemenu();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("mainNav").style.padding = "12px 10px";
+    document.getElementById("mainNav").style.padding = "12px 15px";
     // document.getElementById("logoimg").style.width = "25px";
   }
   else {
-    document.getElementById("mainNav").style.padding = "25px 10px";
+    document.getElementById("mainNav").style.padding = "25px 15px";
     // document.getElementById("logoimg").style.width = "35px";
   }
 }
+
+function hidemenu(){
+  $('.js-scroll-trigger').click(function() {
+      $('.navbar-collapse').collapse('hide');
+  });
+}
+
+
 
 // (function($) {
 //     "use strict"; // Start of use strict

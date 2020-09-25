@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="css/custom-services.css">
     <link rel="stylesheet" href="css/custom-contact.css">
     <link rel="stylesheet" href="css/custom-footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-secondary fixed-top" id="mainNav">
         <div class="container">
             <img src="./imagenes/aguacateio_3.png" alt="" class="logo" id="logoimg">
@@ -45,43 +45,41 @@
       <!-- Masthead -->
   <header class="masthead">
     <div class="container">
-      <img class="masthead-avatar" src="./imagenes/aguacateio_2.png">
-      <p class="masthead-subheading">Crea tu página Web ó tu App con nosotros</p>
+      <img class="masthead-avatar" data-aos="fade-up" src="./imagenes/aguacateio_2.png">
+      <p class="masthead-subheading" data-aos="fade-down">Crea tu página Web ó tu App con nosotros</p>
     </div>
   </header>
      
   <!-- section acerca de -->
   <section class="page-about" id="about">
     <div class="container">
-        <h2 class="page-about-heading">Acerca de</h2>
-        <div class="row">
+        <h2 class="page-about-heading" data-aos="slide-down">Acerca de</h2>
           <div class="col ml-auto">
-            <p class="texto"> Somos una empresa de desarrollo de software y soluciones tecnológicas 100% mexicana,
+            <p class="texto" data-aos="slide-up"> Somos una empresa de desarrollo de software y soluciones tecnológicas 100% mexicana,
               garantizando que tu idea o proyecto sea construido en tiempo y forma.</p>
           </div>
-        </div>
       </div>
   </section>
 
   <!-- section servicios -->
   <section class="page-services" id="services">
     <div class="container">
-      <h2 class="page-services-heading">Servicios</h2>
+      <h2 class="page-services-heading" data-aos="fade-down-right">Servicios</h2>
       <div class="row">
         <div class="col-md-6 col-lg-4">
-          <img src="./imagenes/web.png" alt="" class="img-services">
-          <h4 class="text-servicio">Página Web</h4>
-          <p class="sub-texto-servicio">Aplicaciones web ó páginas web estáticas</p>
+          <img src="./imagenes/web.png" alt="" class="img-services" data-aos="zoom-in">
+          <h4 class="text-servicio" data-aos="fade-up">Página Web</h4>
+          <p class="sub-texto-servicio" data-aos="fade-up">Aplicaciones web ó páginas web estáticas</p>
         </div>
         <div class="col-md-6 col-lg-4">
-          <img src="./imagenes/movil.png" alt="" class="img-services">
-          <h4 class="text-servicio">App Móvil</h4>
-          <p class="sub-texto-servicio">Aplicaciones para Android, IOS ó ambas</p>
+          <img src="./imagenes/movil.png" alt="" class="img-services" data-aos="zoom-in">
+          <h4 class="text-servicio" data-aos="fade-up">App Móvil</h4>
+          <p class="sub-texto-servicio" data-aos="fade-up">Aplicaciones para Android, IOS ó ambas</p>
         </div>
         <div class="col-md-6 col-lg-4">
-          <img src="./imagenes/movil&web.png" alt="" class="img-services">
-          <h4 class="text-servicio">Web & App</h4>
-          <p class="sub-texto-servicio">Aplicaciones web en conjunto con su aplicación móvil</p>
+          <img src="./imagenes/movil&web.png" alt="" class="img-services" data-aos="zoom-in">
+          <h4 class="text-servicio" data-aos="fade-up">Web & App</h4>
+          <p class="sub-texto-servicio" data-aos="fade-up">Aplicaciones web en conjunto con su aplicación móvil</p>
         </div>
       </div>
     </div>
@@ -89,27 +87,31 @@
 
   <section class="page-contact" id="contact">
     <div class="container">
-      <h2 class="page-contact-heading">Contáctanos</h2>
-      <div class="row sociales">
-        <div class="col">
-          <a class="btn btn-social" href="#">
-            <i class="fab fa-fw fa-whatsapp"></i>
-          </a>
-        </div>
-        <div class="col">
-          <a class="btn btn-social" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-        </div>
-        <div class="col">
-          <a class="btn btn-social" href="#">
-            <i class="fab fa-fw fa-instagram"></i>
-          </a>
-        </div>
-        <div class="col">
-          <a class="btn btn-social" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
+      <h2 class="page-contact-heading" data-aos="fade-up">Contáctanos</h2>
+      <br>
+      <h3 class="page-contact-subheading" data-aos="flip-left">Correo</h3>
+      <div class="container col-lg-4">
+        <div class="row sociales" data-aos="fade-down">
+          <div class="col">
+            <a class="btn btn-social" href="#">
+              <i class="fab fa-fw fa-whatsapp"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-social" href="#">
+              <i class="fab fa-fw fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-social" href="#">
+              <i class="fab fa-fw fa-instagram"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-social" href="#">
+              <i class="fab fa-fw fa-twitter"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -119,8 +121,11 @@
     <div class="container">
       <div class="row">
         <div class="col ml-auto">
-          <h2 class="page-about-heading">Dirección</h2>
-          <p class="texto-direccion">143 Rafael Buelna Tepic,Nayarit 63135</p>
+          <h2 class="page-about-heading" data-aos="flip-left">Dirección</h2>
+          <a class="btn btn-marker" href="#" data-aos="fade">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+          <p class="texto-direccion" data-aos="flip-right">143 Rafael Buelna Tepic,Nayarit 63135</p>
         </div>
       </div>
     </div>
@@ -133,5 +138,9 @@
 
   <!-- js navbar -->
   <script src="js/NavBar.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    </script>
 </body>
 </html>

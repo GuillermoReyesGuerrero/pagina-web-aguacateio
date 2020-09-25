@@ -1,9 +1,13 @@
 .footer {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
     color: #3B533E!important;
     background-color: #eded7eff!important;
     text-align: center !important;
     justify-content: center !important;
 }
+.btn-marker{
+    border: #3B533E solid 1px;
+    color: #3B533E !important;
+} 
 

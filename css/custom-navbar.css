@@ -10,12 +10,12 @@
     #mainNav .navbar-brand {
         font-size: 1.25em;
         /* text-transform: uppercase; */
-        color: white;
+        color: #eded7eff;
         font-weight: bold;
     }
     #mainNav .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important;
-        color: white;
+        /* padding: 1.1em 1em !important; */
+        color: #eded7eff;
         font-weight: bold;
     }
     #mainNav .logo{
@@ -54,11 +54,11 @@
       -moz-transition: all 0.3s;
       transition: all 0.3s;
       /* text-transform: uppercase; */
-      color: white;
+      color: #eded7eff;
     }
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important;
-      color: white;
+      color: #eded7eff;
       font-size: 1.1em;
       font-weight: bold;
       /* background-color: red; */
