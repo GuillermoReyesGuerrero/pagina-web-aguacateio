@@ -1,0 +1,75 @@
+@media (max-width: 496px) {
+    .page-about {
+        padding-top: 6rem;
+        padding-right: 0px;
+        padding-bottom: 6rem;
+        padding-left: 0px;
+        color: #fff!important;
+        margin-bottom: 0!important;
+        /* background-color: #1abc9c!important; */
+        background-color: #3B533E !important;
+    }
+    .page-about .page-about-heading {
+        font-size: 50px;
+        /* line-height: 2rem; */
+        color: #eded7eff;
+        /* text-transform: uppercase!important; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+        text-align: center!important;
+        justify-content: center;
+        margin-bottom: 0!important;  
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        padding-bottom: 52px;
+    }
+    .texto{
+        font-size: 24px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+        font-weight: bold !important;
+        /* font-style: oblique; */
+        color: white;
+        padding-bottom: 52px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 500px) {
+    .page-about {
+        padding-top: 6rem;
+        padding-right: 0px;
+        padding-bottom: 6rem;
+        padding-left: 0px;
+        color: #fff!important;
+        margin-bottom: 0!important;
+        /* background-color: #1abc9c!important; */
+        background-color: #3B533E !important;
+    }
+    .page-about .page-about-heading {
+        font-size: 50px;
+        /* line-height: 2rem; */
+        color: #eded7eff;
+        /* text-transform: uppercase!important; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+        text-align: center!important;
+        justify-content: center;
+        margin-bottom: 0!important;  
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        padding-bottom: 52px;
+    }
+    .texto{
+        font-size: 34px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+        font-weight: bold !important;
+        /* font-style: oblique; */
+        color: white;
+        padding-bottom: 52px;
+        text-align: justify;
+    }
+}

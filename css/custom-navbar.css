@@ -1,0 +1,93 @@
+/* navbar */
+@media (max-width: 496px) {
+    #mainNav {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: none;
+      /* background-color: #2C3E50 !important; */
+      background-color: #3B533E;
+    }
+    #mainNav .navbar-brand {
+        font-size: 1.25em;
+        /* text-transform: uppercase; */
+        color: white;
+        font-weight: bold;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+        color: white;
+        font-weight: bold;
+    }
+    #mainNav .logo{
+        width: 50% !important;
+    }
+    .btn-menu {
+        /* background-color: #1abc9c!important; */
+        background-color: #eded7eff !important;
+        color: #825937ff;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 0.5rem; 
+        font-size: 1em !important;
+        border-color: transparent;
+    }
+    .nav-link:hover {
+      /* color:#1abc9c!important; */
+      color: #eded7eff !important;
+    }
+}
+@media (min-width: 500px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      /* background-color: #436E49; */
+      background-color: #3B533E;
+      /* background-color: #25462A; */
+    }
+    #mainNav .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      /* text-transform: uppercase; */
+      color: white;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      /* background-color: red; */
+      /* background-color: #2C3E50 !important; */
+    }
+    #mainNav .navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      /* background-color: black; */
+    }
+    #mainNav .navbar-shrink .navbar-brand {
+      font-size: 1.75em;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    #mainNav .logo{
+        width: 20% !important;
+        /* margin-right: 5px; */
+    }
+    .nav-item a.nav-link.active {
+      color: #3B533E !important;
+      /* background: #1abc9c; */
+      background: #eded7eff !important;
+  }
+  .nav-link:hover {
+    /* color:#1abc9c!important; */
+    color: #eded7eff !important;
+  }
+
+
+}
+
