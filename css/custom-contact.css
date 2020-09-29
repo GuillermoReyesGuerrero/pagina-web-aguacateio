@@ -93,9 +93,15 @@
         border: #eded7eff solid 1px;
         color: #eded7eff !important;
     } 
+    .btn-social:hover{
+        /* border: #eded7eff solid 1px; */
+        background-color: #eded7eff !important;
+        color: #3B533E!important;
+    }
     .sociales{
         text-align: center !important;
-    }   
+    }  
+
 }
 
 
